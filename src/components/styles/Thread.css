@@ -1,0 +1,153 @@
+.thread-component {
+  border-radius: 8px;
+  background: #FDFDFD;
+
+}
+
+.heading {
+  height: 40px;
+  gap: 72px;
+  display: flex;
+  background: #FEFFC033;
+}
+
+.heading h2 {
+  height: 27px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.24px;
+  margin-top: 6px;
+}
+
+.heading span{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 15px;
+  height: 9px;
+}
+
+.thread-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 26px;
+  gap: 27px;
+}
+
+.sub-thread, .sub-inter {
+  width: 199px;
+  height: 95px;
+  border-radius: 10px;
+  border: -0.99px solid #33333352;
+  opacity: 0.5px;
+  box-shadow: 1px 3px 8px 0px #00000040;
+}
+
+.sub-thread p, .sub-inter p {
+  font-size: 12px;
+  margin-top: 4px;
+  margin-left: 7px;
+}
+
+.thread-inputs textarea {
+  background: #FAFAFA;
+  padding: 10px;
+  border: -0.99px solid #33333352;
+  width: 177px;
+  height: 50px;
+  border-radius: 10px;
+  opacity: 0.5px;
+  box-shadow: 1px 3px 8px 0px #00000040;
+  font-size: 12px;
+}
+
+.thread-options {
+  height: 32px;
+  display: flex;
+  gap: 27px;
+  padding: 0px 26px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #323232;
+}
+
+.btns {
+  display: flex;
+  gap: 14px;
+  width: 118px;
+  margin-left: 83px;
+}
+
+.thread-selects {
+  display: flex;
+  gap: 17px;
+  margin-bottom: 10px;
+  width: 199px;
+}
+
+.thread-selects select {
+  border: none;
+  width: 91px;
+  height: 32px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 10px;
+  box-shadow: 1px 3px 8px 0px #00000040;
+}
+
+.sub-thread-button {
+  background: #0029FF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-left: 26px;
+  width: 97px;
+  height: 36px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.summary {
+  margin-left: 26px;
+  width: 425px;
+  height: 108px;
+  border-radius: 10px;
+  border-radius: 10px;
+  border: -0.99px solid #33333352;
+  opacity: 0.5px;
+  box-shadow: 1px 3px 8px 0px #00000040;
+}
+
+.summary p {
+  font-size: 12px;
+  margin-top: 4px;
+  margin-left: 7px;
+}
+
+.summary textarea {
+  background: #FAFAFA;
+  padding: 10px;
+  border: -0.99px solid #33333352;
+  border-radius: 10px;
+  opacity: 0.5px;
+  box-shadow: 1px 3px 8px 0px #00000040;
+  font-size: 12px;
+  height: 69px;
+  width: 405px;
+}
+
+/* textarea[placeholder="Summary for Thread A"] {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+} */

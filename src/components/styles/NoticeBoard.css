@@ -1,0 +1,33 @@
+.notice {
+    width: 95px;
+    height: 394px;  
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: fixed;
+    top: 110px;
+    right: 0px;
+    z-index: 1;
+    box-shadow: 0px 1px 1px 0px #00000040;
+    background: #fdfdfd;
+}
+
+.n-heading {
+    background: #000;
+    height: 394px;
+    width: 50px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: #fdfdfd;
+}
+
+.close {
+    position: relative;
+    top: 13px;
+    left: 20px;
+}
+
+.n-text {
+    width: 12px;
+    height: 288px;
+    text-align: center;
+}

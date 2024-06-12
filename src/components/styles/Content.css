@@ -1,0 +1,82 @@
+.main {
+    width: 100%;
+    height: 87.5vh;
+    position: relative;
+    top: 90px;
+}
+
+.projectInfo {
+    position: relative;
+    left: 187px;
+    top: 18px;
+    width: 1066px;
+}
+
+.top {
+    height: 50px;
+    width: 1066px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.heading p {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #0029FF;
+    margin-left: 5px;
+}
+
+.sbmBtn {
+    border: none;
+    margin-right: 5px;
+    background-color: #0029FF;
+    width: 121px;
+    height: 36px;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.middle {
+    width: 1012px;
+    height: 85px;
+    border-radius: 5px;
+    background: #E9ECEF;
+    padding: 25px 27px;
+}
+
+.middle h3 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.middle p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    padding: 75px 27px;
+    column-gap: 52px;
+    row-gap: 58px;
+}

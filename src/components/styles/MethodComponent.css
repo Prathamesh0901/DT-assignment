@@ -1,0 +1,98 @@
+.method {
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.i-heading {
+    width: 434px;
+    height: 43px;
+    background: #F2F2F2;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-left: 14px;
+}
+
+.i-heading h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.i-content p{
+    width: 394px;
+    height: 67px;
+    margin-left: 11px;
+    margin-top: 16px;
+    margin-right: 29px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.i-content a {
+    width: 71px;
+    height: 29px;
+    margin-left: 366px;
+    margin-top: 66px;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.t-heading {
+    margin-top: 20px;
+    width: 434px;
+    height: 43px; 
+    background: #FCFCFC;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-left: 14px; 
+    border: 1px solid #D9D7D7;
+}
+
+.t-content p {
+    width: 424px;
+    height: 67px;
+    margin-left: 15px;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.t-content a {
+    width: 71px;
+    height: 29px;
+    margin-top: 103px;
+    margin-left: 346px;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.example {
+    width: 394px;
+    height: 43px;
+    background-color: #fcfcfc;
+    margin-top: 16px;
+    margin-left: 40px;
+}
+
+.e-heading {
+    width: 394px;
+    height: 43px;
+    border: 1px solid #D9D7D7;
+}
+
+.e-heading h3{
+    width: 193px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 24px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.e-content p {
+    font-weight: 400;
+    font-size: 14px;
+}
