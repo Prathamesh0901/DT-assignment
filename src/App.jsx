@@ -12,7 +12,7 @@ function App() {
     title: ''
   });
 
-  const URL = 'https://dev.deepthought.education/assets/uploads/files/files/others/ddugky_project.json';
+  const URL = './src/DTjson.txt';
 
   useEffect(() => {
       const fetchData = async () => {
